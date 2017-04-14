@@ -50,6 +50,7 @@ function processInline(file, ret, settings, opt) {
     var reg = settings.styleReg ? settings.styleReg : style_reg;
     var content = file.getContent();
     var i = 0;
+    content=''+content;
     content = content.replace(reg, function(m, start_tag, content, end_tag){
         return start_tag + _process(content, file, i++, ret, settings, opt) + end_tag;
     });
