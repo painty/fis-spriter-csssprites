@@ -10,6 +10,7 @@ module.exports = function (content, images) {
     var _arr_css = []
         , _content;
     var reg = /(?:\/\*[\s\S]*?(?:\*\/|$))|([^\{\}\/]*)\{([^\{\}]*)\}/gi;
+    content=''+content;
     _content = content.replace(reg, function(m, selector, css) {
         if (css) {
             var rules = Rules.wrap(selector.trim(), css.trim());
