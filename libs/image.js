@@ -134,7 +134,7 @@ Generator.prototype = {
         ext = (group=='__default__' ? '' : '_'+group) + ext;
 
         var root = fis.project.getProjectPath(),
-            to_path = root + fis.util((this.settings.to.substr(0,1)=='/' ? '/' : this.file.subdirname) +'/'+this.settings.to +'/'+ this.file.filename + ext),
+            to_path = root + fis.util(this.file.subdirname +'/'+ this.file.filename + ext),
             pkg_path = to_path.substring(root.length);
 
         var image_file = fis.file.wrap(to_path);
