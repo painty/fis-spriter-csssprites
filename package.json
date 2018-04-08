@@ -1,21 +1,44 @@
 {
-  "name": "fis-spriter-csssprites",
-  "version": "0.3.11",
-  "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "git+https://github.com/painty/fis-spriter-csssprites.git",
+  "_id": "fis-spriter-csssprites@0.3.11",
+  "_inBundle": false,
+  "_integrity": "sha1-vyVmgqs0MtZCQWjd+BBPwNSBBXc=",
+  "_location": "/fis-spriter-csssprites",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis-spriter-csssprites.git"
+    "raw": "fis-spriter-csssprites@git+https://github.com/painty/fis-spriter-csssprites.git",
+    "name": "fis-spriter-csssprites",
+    "escapedName": "fis-spriter-csssprites",
+    "rawSpec": "git+https://github.com/painty/fis-spriter-csssprites.git",
+    "saveSpec": "git+https://github.com/painty/fis-spriter-csssprites.git",
+    "fetchSpec": "https://github.com/painty/fis-spriter-csssprites.git",
+    "gitCommittish": "master"
   },
+  "_requiredBy": [
+    "/",
+    "/fis3"
+  ],
+  "_resolved": "git+https://github.com/painty/fis-spriter-csssprites.git#d8b09d14766a85fec13d122588fb074369a1b095",
+  "_spec": "fis-spriter-csssprites@git+https://github.com/painty/fis-spriter-csssprites.git",
+  "_where": "C:\\Users\\bozhou\\Desktop\\ele\\project",
+  "author": {
+    "name": "xiangshouding",
+    "email": "xiangshouding@baidu.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fis-dev/fis-spriter-csssprites/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "images": "3.0.0"
   },
+  "deprecated": false,
+  "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/fis-dev/fis-spriter-csssprites#readme",
   "keywords": [
     "fis",
     "node-images",
@@ -27,9 +50,15 @@
     "jpeg",
     "gif"
   ],
-  "author": "xiangshouding <xiangshouding@baidu.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fis-dev/fis-spriter-csssprites/issues"
-  }
+  "main": "index.js",
+  "name": "fis-spriter-csssprites",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fis-dev/fis-spriter-csssprites.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.3.11"
 }
