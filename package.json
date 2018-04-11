@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_from": "git+https://github.com/painty/fis-spriter-csssprites.git",
   "_id": "fis-spriter-csssprites@0.3.11",
   "_inBundle": false,
@@ -14,6 +15,14 @@
     "saveSpec": "git+https://github.com/painty/fis-spriter-csssprites.git",
     "fetchSpec": "https://github.com/painty/fis-spriter-csssprites.git",
     "gitCommittish": "master"
+=======
+  "name": "fis-spriter-csssprites",
+  "version": "0.4.0",
+  "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+>>>>>>> refs/remotes/fex-team/master
   },
   "_requiredBy": [
     "/",
@@ -31,7 +40,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "images": "3.0.0"
+    "images": "3.0.1"
   },
   "deprecated": false,
   "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",

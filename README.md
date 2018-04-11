@@ -10,9 +10,12 @@
 #### 环境要求
 
 0. 依赖native插件，[images](https://github.com/zhangyuanwei/node-images) 环境需要符合这个插件的要求。(OS X、Windows、Linux x86 提供了二进制包)
-0. 只能在FIS中使用
+0. 具体支持 Node 版本列表参见 https://github.com/zhangyuanwei/node-images/releases/tag/v3.0.1
+0. 只能在 FIS(fis 2.x, fis3) 中使用
 
 ### 配置
+
+<font color="red">**以下配置均使用 fis 2.x 的配置方式配置，如果使用 fis3 请按照 fis3 的配置方式，具体见官网 fis.baidu.com**</font>
 
 * 首先要配置FIS中使用csssprites
 
@@ -122,7 +125,7 @@
 |background-position: left top;|background-position: left top;|需要合并的图片向左浮动|
 |background-position: right top;|background-position: right top;|需要合并的图片向右浮动
 
-###示例
+### 示例
 
 源代码: `aio.css`
 
