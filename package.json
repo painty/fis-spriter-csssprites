@@ -1,28 +1,10 @@
 {
-<<<<<<< HEAD
-  "_from": "git+https://github.com/painty/fis-spriter-csssprites.git",
-  "_id": "fis-spriter-csssprites@0.3.11",
-  "_inBundle": false,
-  "_integrity": "sha1-vyVmgqs0MtZCQWjd+BBPwNSBBXc=",
-  "_location": "/fis-spriter-csssprites",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "fis-spriter-csssprites@git+https://github.com/painty/fis-spriter-csssprites.git",
-    "name": "fis-spriter-csssprites",
-    "escapedName": "fis-spriter-csssprites",
-    "rawSpec": "git+https://github.com/painty/fis-spriter-csssprites.git",
-    "saveSpec": "git+https://github.com/painty/fis-spriter-csssprites.git",
-    "fetchSpec": "https://github.com/painty/fis-spriter-csssprites.git",
-    "gitCommittish": "master"
-=======
   "name": "fis-spriter-csssprites",
   "version": "0.4.0",
   "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
   "main": "index.js",
   "directories": {
     "test": "test"
->>>>>>> refs/remotes/fex-team/master
   },
   "_requiredBy": [
     "/",
@@ -43,10 +25,6 @@
     "images": "3.0.1"
   },
   "deprecated": false,
-  "description": "基于fis的csssprite，支持repeat-x，repeat-x，background-position",
-  "directories": {
-    "test": "test"
-  },
   "homepage": "https://github.com/fis-dev/fis-spriter-csssprites#readme",
   "keywords": [
     "fis",
@@ -60,14 +38,11 @@
     "gif"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "name": "fis-spriter-csssprites",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fis-dev/fis-spriter-csssprites.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.3.11"
+  }
 }
